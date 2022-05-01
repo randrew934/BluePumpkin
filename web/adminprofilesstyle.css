@@ -1,0 +1,159 @@
+.adminprofilescontainer{
+	width:100%
+	
+}
+
+.adminprofilescontainer h2{
+	color:navy;
+	
+}
+
+.adminprofilescontainer .createAccountButton{
+	color:white;
+	background:navy;
+border-radius: 10px;
+  border: 1px solid navy;
+  font-size: 15px;
+  padding: 15px 20px;
+  margin: 20px;
+  width: 95%;
+	
+}
+
+.adminprofilescontainer .createAccountButtonContainer.collapsecreateAccountButtonContainer{
+	display:none;
+	
+}
+
+.adminprofilescontainer .adminprofilescontainer_table{
+	
+	width:100%;
+padding:10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin:30px 0px;
+	
+}
+
+.adminprofilescontainer .adminprofilescontainer_table thead tr{
+background:#2e4ead;
+color: white;
+}
+
+.adminprofilescontainer .adminprofilescontainer_table tbody tr{
+background:white;
+color: navy;
+}
+
+.warningClass{
+	display:none;
+}
+
+.adminoverallcreatecontainer{
+	display:none;
+}
+.adminoverallcreatecontainer.expandadminoverallcreatecontainer{
+	width:60%;
+	margin:auto;
+	display:block;
+}
+
+.adminoverallcreatecontainer.expandadminoverallcreatecontainer .closecreateformcontainer {
+ margin: 40px;
+ width: 100%;
+ padding: 20px;
+	
+}
+
+.adminoverallcreatecontainer.expandadminoverallcreatecontainer .closecreateformcontainer a{
+float: right;
+}
+
+
+.adminoverallcreatecontainer.expandadminoverallcreatecontainer .createformcontainer{
+width:100%;
+}
+
+.adminoverallcreatecontainer.expandadminoverallcreatecontainer .createformcontainer h1{
+	color:green;
+	margin: 20px 0;
+}
+
+.adminoverallcreatecontainer.expandadminoverallcreatecontainer .createformcontainer h3{
+	font-size: 15px;
+	color:navy;
+}
+
+.adminoverallcreatecontainer.expandadminoverallcreatecontainer .createformcontainer .formgroup label{
+ font-size: 10px;   
+}
+
+.adminoverallcreatecontainer.expandadminoverallcreatecontainer .createformcontainer button{
+  background: navy;
+  color: white;
+  border-radius: 10px 10px 10px 0px;
+  border: 1px solid navy;
+  font-size: 15px;
+  padding: 20px 15px;
+  margin: 20px;
+  width: 95%;
+}
+
+.adminoverallcreatecontainer.expandadminoverallcreatecontainer .createformcontainer button:hover{
+  border-radius: 10px 10px 10px 0px;
+  border: 1px solid navy;
+  opacity:.8;
+}
+
+
+
+
+input[type=text], input[type=email], input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+
+input[type=date]::-webkit-datetime-edit {
+  padding: 1em 4em;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+ 
+}
+
+input[type=date]::-webkit-datetime-edit-text { color: red; padding: 0 0.3em; }
+input[type=date]::-webkit-datetime-edit-month-field { color: #2e4ead; }
+input[type=date]::-webkit-datetime-edit-day-field { color: #2e4ead; }
+input[type=date]::-webkit-datetime-edit-year-field { color: #2e4ead; }
+
+@media (max-width: 1000px){
+.adminoverallcreatecontainer.expandadminoverallcreatecontainer{
+	width:70%;
+}
+}
+
+@media (max-width: 900px){
+	.adminoverallcreatecontainer.expandadminoverallcreatecontainer{
+	width:80%;
+}
+}
+
+
+@media (max-width: 858px){
+.warningClass{
+	display:block;
+	color:red;
+}
+
+.adminprofilescontainer{
+	display:none;
+	
+}
+}

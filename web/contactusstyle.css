@@ -1,0 +1,118 @@
+body{
+
+font-family: "montserrat";
+
+}
+
+.contactcontainer{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 30px;
+  padding: 50px 0px;
+
+}
+
+.contactcontainer .contacttitlecontainer{
+text-align: center;
+background: #2e4ead;
+padding: 40px 20px;
+margin-bottom: 30px;
+}
+
+.contactcontainer .contacttitlecontainer h1{
+font-size: 40px;
+color: white;
+margin-bottom: 10px;
+}
+
+.contactcontainer .contacttitlecontainer p{
+  font-size: 20px;
+  color: white;
+  width: 50%;
+  margin: auto;
+}
+
+.contactcontainer .contactbodycontainer{
+  width: 90%;
+  display: flex;
+  margin: auto;
+}
+
+.contactcontainer .contactbodycontainer .contactbodycon1{
+  width: 55%;
+  border-radius: 10px;
+  border: 1px solid #DCDCDC;
+  box-shadow: 2px 5px 5px #DCDCDC;
+  margin-right: 10px;
+  padding: 20px;
+}
+
+.contactcontainer .contactbodycontainer .contactbodycon2{
+  width: 40%;
+  border-radius: 10px;
+  border: 1px solid #DCDCDC;
+  box-shadow: 2px 5px 5px #DCDCDC;
+}
+.contactcontainer .contactbodycontainer .contactbodycon2 img{
+  max-width: 100%;
+  height: auto;
+}
+
+.contactcontainer .contactbodycontainer .contactbodycon1 h1{
+  color: navy;
+  font-size: 50px;
+}
+
+.contactcontainer .contactbodycontainer .contactbodycon1 .contactbodysecondheader{
+width: 80%;
+color: #2e4ead;
+margin: 20px 0;
+}
+
+.contactcontainer .contactbodycontainer .contactbodycon1 ul{
+margin-top: 20px;
+display:block;
+color: #2e4ead;
+}
+
+.contactcontainer .contactbodycontainer .contactbodycon1 ul li{
+margin: 20px 0px;
+display:flex;
+}
+
+.contactcontainer .contactbodycontainer .contactbodycon1 ul li p{
+margin-left: 10px;
+}
+
+@media (max-width: 858px) {
+.contactcontainer{
+  padding: 30px 0px;
+}
+
+.contactcontainer .contacttitlecontainer{
+padding: 30px 10px;
+}
+
+.contactcontainer .contacttitlecontainer h1{
+font-size: 30px;
+margin-bottom: 10px;
+}
+
+.contactcontainer .contacttitlecontainer p{
+  font-size: 15px;
+  width: 70%;
+}
+
+.contactcontainer .contactbodycontainer{
+  width: 95%;
+}
+
+.contactcontainer .contactbodycontainer .contactbodycon1{
+  width: 100%;
+}
+
+.contactcontainer .contactbodycontainer .contactbodycon2{
+display: none;
+}
+}

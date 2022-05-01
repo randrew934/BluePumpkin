@@ -1,0 +1,9 @@
+.wrapper .top_navbar .top_menu #adminTitle{
+color:navy;
+}
+
+@media (max-width: 700px){
+	.wrapper .top_navbar .top_menu #adminTitle{
+display: none;
+}
+}

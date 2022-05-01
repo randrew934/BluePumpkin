@@ -1,0 +1,231 @@
+section{
+  margin-top: 60px;
+}
+.winners {
+  text-align: center;
+  margin-top:20px;
+  padding: 15px;
+}
+
+.winners header{
+  font-size: 25px;
+  color: white;
+  margin: 25px 0;
+  padding: 25px;
+  width: 100%;
+  text-align: center;
+  background: #2e4ead
+}
+
+.winners .winners_table {
+  border: 1px solid navy;
+
+}
+
+.winners .winners_table .winners_row{
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px solid navy;
+}
+
+.winners .winners_table .winners_row .winners_column_1{
+width: 20%;
+margin-right: 15px;
+}
+
+.winners .winners_table .winners_row .winners_column_1 h2{
+background-image: linear-gradient(to bottom right, #00FF00 0%, #4059E1 100%);
+color:transparent;
+-webkit-background-clip: text;
+background-clip: text;
+font-size: 30px;
+}
+
+.winners .winners_table .winners_row .winners_column_2{
+  width: 70%;
+  color: blue;
+  font-size: 20px;
+  font-family: Bevan;
+}
+
+.homeeventscontainer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 20px;
+  margin: auto;
+}
+
+.homeeventscontainer .homeeventscon1{
+  background: url(6670.jpg) no-repeat;
+  background-size: cover;
+  padding: 20px;
+  margin: 0px 10px;
+}
+
+.homeeventscontainer .homeeventscon1 h2{
+color: red;
+margin-bottom: 15px;
+}
+
+.homeeventscontainer .homeeventscon1 p{
+margin-bottom: 30px;
+color: 	#808080;
+}
+
+
+.homeeventscontainer .homeeventscon2{
+  background: url(3916406.jpg) no-repeat;
+  background-size: cover;
+  padding: 20px;
+  margin: 0px 10px;
+}
+
+.homeeventscontainer .homeeventscon2 h2{
+color: navy;
+margin-bottom: 15px;
+}
+
+.homeeventscontainer .homeeventscon2 p{
+margin-bottom: 30px;
+color: white;
+}
+
+.homeeventscontainer .homeeventscon3{
+  background: url(3380861.jpg) no-repeat;
+  background-size: cover;
+  padding: 20px;
+  margin: 0px 10px;
+}
+
+.homeeventscontainer .homeeventscon3 h2{
+color: red;
+margin-bottom: 15px;
+}
+
+.homeeventscontainer .homeeventscon3 p{
+margin-bottom: 30px;
+color: blue;
+}
+
+@media (max-width: 900px) {
+  .winners {
+    padding: 10px;
+  }
+
+  .winners header{
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+  }
+
+
+  .winners .winners_table .winners_row{
+    padding: 15px;
+  }
+
+  .winners .winners_table .winners_row .winners_column_1{
+  margin-right: 10px;
+  }
+
+  .winners .winners_table .winners_row .winners_column_1 h2{
+  font-size: 20px;
+  }
+
+  .winners .winners_table .winners_row .winners_column_2{
+    font-size: 15px;
+  }
+
+  .homeeventscontainer{
+    padding: 15px;
+    display: block;
+  }
+
+  .homeeventscontainer .homeeventscon1{
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .homeeventscontainer .homeeventscon1 h2{
+  font-size: 15px;
+  }
+
+  .homeeventscontainer .homeeventscon1 p{
+    font-size: 10px;
+  }
+
+
+  .homeeventscontainer .homeeventscon2{
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .homeeventscontainer .homeeventscon2 h2{
+  font-size: 15px;
+  }
+
+  .homeeventscontainer .homeeventscon2 p{
+    font-size: 10px;
+  }
+
+  .homeeventscontainer .homeeventscon3{
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .homeeventscontainer .homeeventscon3 h2{
+  font-size: 15px;
+  }
+
+  .homeeventscontainer .homeeventscon3 p{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .winners {
+    padding: 10px;
+  }
+
+  .winners header{
+    font-size: 15px;
+  }
+
+  .winners .winners_table .winners_row .winners_column_1{
+  display: none;
+  }
+
+  .winners .winners_table .winners_row .winners_column_2{
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .homeeventscontainer{
+    padding: 15px;
+    display: block;
+  }
+
+  .homeeventscontainer .homeeventscon1 h2{
+  font-size: 12px;
+  }
+
+  .homeeventscontainer .homeeventscon1 p{
+    font-size: 8px;
+  }
+
+  .homeeventscontainer .homeeventscon2 h2{
+  font-size: 12px;
+  }
+
+  .homeeventscontainer .homeeventscon2 p{
+    font-size: 8px;
+  }
+
+  .homeeventscontainer .homeeventscon3 h2{
+  font-size: 12px;
+  }
+
+  .homeeventscontainer .homeeventscon3 p{
+    font-size: 8px;
+  }
+}

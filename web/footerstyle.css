@@ -1,0 +1,159 @@
+.footercontainer{
+ left: 0;
+ bottom: 0;
+width: 100%;
+  height: auto;
+  border-top: 1px solid #E6E6FA;
+  background-color: #f5f5f5;
+}
+
+.Mrowfootercontainer{
+  display: flex;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+.rowfootercontainer1{
+  width:60%;
+  color:#696969;
+  display: block;
+}
+
+.rowfootercontainer2{
+  width: 30%;
+  display: flex;
+}
+
+.Mrowfootercontainer h3{
+  margin-bottom: 15px;
+  color: navy;
+  font-weight: bold;
+}
+
+.columnfootercontainer1{
+  margin-right: 10px;
+  padding:20px;
+}
+
+.columnfootercontainer2{
+  width: 40%;
+  display: block;
+  padding:20px;
+}
+
+.columnfootercontainer1 p{
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.copyright p{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.columnfootercontainer2 ul a {
+  color:inherit;
+  text-decoration:none;
+  color:#696969;
+}
+
+.columnfootercontainer2 ul a:hover {
+  opacity: .8;
+}
+
+@media (max-width: 980px) {
+  .Mrowfootercontainer{
+    margin-left: 15px;
+    margin-right:15px;
+  }
+
+
+  .columnfootercontainer2{
+    padding:15px;
+  }
+
+  .columnfootercontainer1 p{
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .copyright p{
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .columnfootercontainer2 ul a{
+    font-size: 10px;
+  }
+
+}
+
+@media (max-width: 858px) {
+
+  footer {
+      bottom: 0;
+      left: 0;
+      clear: both;
+      padding-top: 50px;
+      background-color: #f5f5f5;
+      width:100%;
+      border-top: 1px solid #E6E6FA;
+    }
+
+  .Mrowfootercontainer{
+    display: block;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right:20px;
+  }
+
+  .rowfootercontainer1{
+    width:100%;
+    color:#696969;
+    display: block;
+  }
+
+  .rowfootercontainer2{
+    width: 100%;
+    display: flex;
+  }
+
+  .Mrowfootercontainer h3{
+    margin-bottom: 15px;
+    color: navy;
+    font-weight: bold;
+  }
+
+  .columnfootercontainer1{
+    margin-right: 0px;
+    padding:20px;
+    text-align: center;
+  }
+
+  .columnfootercontainer2{
+    width: 40%;
+    display: none;
+    padding:20px;
+  }
+
+  .columnfootercontainer1 p{
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .copyright p{
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .columnfootercontainer2 ul a {
+    color:inherit;
+    text-decoration:none;
+    color:#696969;
+  }
+
+  .columnfootercontainer2 ul a:hover {
+    opacity: .8;
+  }
+}

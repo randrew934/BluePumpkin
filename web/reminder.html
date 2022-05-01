@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="homestyle.css">
+   <link rel="stylesheet" href="homebodystyle.css">
+   <link rel="stylesheet" href="remindersstyle.css">
+   <link rel="stylesheet" href="preloader.css">
+   <link rel="stylesheet" href="fonts.css">
+     <link href="C:\Users\Ral\Desktop\Android Play Tools\Fonts\montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <title>BluePumpkin</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="top_navbar">
+       <div class="drawer">
+         <div></div>
+         <div></div>
+         <div></div>
+       </div>
+       <div class="top_menu">
+         <div class="logo"> BluePumpkin</div>
+         <ul>
+           <li><a href="contactus.html"><i class="fas fa-phone"></i></a></li>
+           <li><a href="faq.html"><i class="fas fa-question"></i></a></li>
+          </ul>
+       </div>
+       <div class="side_bar">
+         <ul>
+           <li><p><span style="font-family:pacifico;">Hi,  </span><span id="usertitle">User<span></p></li>
+           <li><a href="" ><span class="icon"><i class="fas fa-home fa-lg" aria-hidden="true"></i></span><span class= "title">Home</span></a></li>
+           <li><a href="" ><span class="icon"><i class="fas fa-gamepad fa-lg" aria-hidden="true"></i></span><span class= "title">Events</span></a></li>
+           <li><a href="" class="active"><span class="icon"><i class="fas fa-bell fa-lg" aria-hidden="true"></i></span><span class= "title">Reminder</span></a></li>
+           <li><a href="" class="notification"><span class="icon"><i class="fas fa-bell fa-lg" aria-hidden="true"></i></span><span class="badge">3</span><span class= "title">Reminder</span></a></li>
+           <li><a href="" > <span class="icon"><i class="fas fa-user fa-lg" aria-hidden="true"></i></span><span class= "title">Profile</span></a></li>
+           <li><a href=""><span class="icon"><i class="fas fa-power-off fa-lg" aria-hidden="true"></i></span><span class= "title">Log out</span></a></li>
+         </ul>
+       </div>
+     </div>
+     <section>
+<div class="main_container">
+  <div class="item">
+    <div class="remindercontainer">
+<h1>Reminders</h1>
+<div class="reminder_container_date"><span id="currentdate">2020-05-06</span></div>
+<div class="remindercontainertables">
+<div class = "remindercontainertable_row">
+<div class = "remindercontainertable_col">
+<div class="remindercontainer_p"><p>Today is <span id="birthdayname">AAAAA</span>'s Birthday. Wish them well.</p></div>
+</div>
+</div>
+</div>
+    </div>
+</div>
+</div>
+</section>
+     <script src="jquery.min.js"></script>
+ <script>
+   $(document).ready(function() {
+     $(".drawer").click(function(){
+       $(".wrapper").toggleClass("collapse");
+
+     });
+	 
+    
+ });
+ </script>
+ <div class="loader-wrapper">
+   <h3>BluePumpkin</h3>
+   <span class="loader"><span class="loader-inner"></span></span>
+ </div>
+ <script>
+     $(window).on("load",function(){
+       $(".loader-wrapper").fadeOut("slow");
+	   
+	   
+     });
+ </script>
+    </div>
+   </body>
+   </html>

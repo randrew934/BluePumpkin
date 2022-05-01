@@ -1,0 +1,367 @@
+section{
+  margin-top: 60px;
+}
+
+.main_container .eventscontainer{
+background: white;
+padding: 20px;
+}
+
+.main_container .eventscontainer h1{
+font-size: 40px;
+color: red;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+.main_container .eventscontainer h2{
+  font-size: 35px;
+  color: #4658BB;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.main_container .eventscontainer .eventsbodycontainer{
+  margin: 20px 0px;
+  padding: 0px 15px;
+  border-radius: 5px;
+  border: 1px solid #DCDCDC;
+  box-shadow: 2px 5px 5px #DCDCDC;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont{
+margin: 20px 0;
+width: 100%;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventsformcont.showeventsformcont{
+background: white;
+padding: 15px;
+display: block;
+}
+
+input[type=text]{
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventsformcont.showeventsformcont .formeventsgroup{
+margin: 8px 0;
+display: flex;
+border-radius: 4px;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventsformcont.showeventsformcont .formeventsgroup #errorlogineeid{
+  font-size: 10px;
+  margin-left: 20px;
+  color: red;
+  text-align: center;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventsformcont.showeventsformcont .formeventsgroup .confirmButton{
+padding: 10px 20px;
+background: green;
+color: white;
+margin-left: 10px;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventsformcont.showeventsformcont .formeventsgroup .cancelButton{
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  margin-left: 10px;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventsformcont.showeventsformcont .formeventsgroup .confirmButton:hover{
+opacity: .8;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventsformcont.showeventsformcont .formeventsgroup .cancelButton:hover{
+ opacity: .8;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont1{
+  background: url(6670.jpg) no-repeat;
+  background-size: cover;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont1 .eventitemcont1_trans{
+width: 50%;
+background-color: rgba(255,255,255,0.1);
+padding: 20px 10px;
+color: 	#808080;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont1 .eventitemcont1_trans h3{
+font-size: 25px;
+margin-bottom: 10px;
+color: red;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont1 .eventitemcont1_trans p{
+margin-bottom: 30px;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont1 .eventitemcont1_trans button{
+background: rgba(255,255,255,0);
+border-radius: 5px;
+border: 1px solid black;
+padding: 15px 30px;
+font-size: 20px;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont1 .eventitemcont1_trans button:hover{
+opacity: .8;
+color: green;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont2{
+  background: url(3916406.jpg) no-repeat;
+  background-size: cover;
+
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont2 .eventitemcont2_trans{
+width: 50%;
+background-color: rgba(255,255,255,0.1);
+padding: 20px 10px;
+color: white;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont2 .eventitemcont2_trans h3{
+font-size: 25px;
+margin-bottom: 10px;
+color: navy;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont2 .eventitemcont2_trans p{
+margin-bottom: 30px;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont2 .eventitemcont2_trans button{
+background: white;
+color: blue;
+border-radius: 5px;
+border: 1px solid white;
+padding: 15px 30px;
+font-size: 20px;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont2 .eventitemcont2_trans button:hover{
+opacity: .8;
+color: green;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont3{
+  background: url(3380861.jpg) no-repeat;
+  background-size: cover;
+
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont3 .eventitemcont3_trans{
+width: 50%;
+background-color: rgba(255,255,255,0.1);
+padding: 20px 10px;
+color: blue;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont3 .eventitemcont3_trans h3{
+font-size: 25px;
+margin-bottom: 10px;
+color: red;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont3 .eventitemcont3_trans p{
+margin-bottom: 30px;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont3 .eventitemcont3_trans button{
+background: white;
+color: navy;
+border-radius: 5px;
+border: 1px solid white;
+padding: 15px 30px;
+font-size: 20px;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont3 .eventitemcont3_trans button:hover{
+opacity: .8;
+color: green;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont.hideapplyeventitemcont .eventitemcont1_trans button{
+  display: none;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont.hideapplyeventitemcont .eventitemcont2_trans button{
+  display: none;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventitemcont.hideapplyeventitemcont .eventitemcont3_trans button{
+  display: none;
+}
+
+.main_container .eventscontainer .eventsbodycontainer .eventsformcont {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .main_container .eventscontainer{
+  padding: 15px;
+  }
+
+  .main_container .eventscontainer h1{
+  font-size: 30px;
+  letter-spacing: 1px;
+  }
+
+  .main_container .eventscontainer h2{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+
+  input[type=text]{
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventsformcont.showeventsformcont .formeventsgroup{
+  margin: 8px 0;
+  display: flex;
+  border-radius: 4px;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventsformcont.showeventsformcont .formeventsgroup .confirmButton{
+  margin-left: 5px;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventsformcont.showeventsformcont .formeventsgroup .cancelButton{
+    margin-left: 5px;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont1 .eventitemcont1_trans h3{
+  font-size: 20px;
+  }
+
+
+  .main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont1 .eventitemcont1_trans button{
+  padding: 15px 20px;
+  font-size: 15px;
+}
+
+  .main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont2 .eventitemcont2_trans h3{
+  font-size: 20px;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont2 .eventitemcont2_trans p{
+  margin-bottom: 30px;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont2 .eventitemcont2_trans button{
+  padding: 15px 20px;
+  font-size: 15px;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont3 .eventitemcont3_trans h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: red;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont3 .eventitemcont3_trans p{
+  margin-bottom: 30px;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont3 .eventitemcont3_trans button{
+    padding: 15px 20px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  input[type=text]{
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventsformcont.showeventsformcont h4{
+    font-size: 10px;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventsformcont.showeventsformcont .formeventsgroup{
+  margin: 0;
+  display: block;
+  text-align: center;
+  }
+  
+
+  .main_container .eventscontainer .eventsbodycontainer .eventsformcont.showeventsformcont .formeventsgroup .confirmButton{
+  width:95%;
+  margin-top: 10px;
+ 
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventsformcont.showeventsformcont .formeventsgroup .cancelButton{
+    width:95%;
+    margin-top: 5px;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont1 .eventitemcont1_trans{
+  width: 90%;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont1 .eventitemcont1_trans h3{
+  font-size: 10px;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont1 .eventitemcont1_trans p{
+  font-size: 8px;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont1 .eventitemcont1_trans button{
+  padding: 10px 15px;
+  font-size: 10px;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont2 .eventitemcont2_trans{
+  width: 90%;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont2 .eventitemcont2_trans h3{
+  font-size: 10px;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont2 .eventitemcont2_trans p{
+  font-size: 8px;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont2 .eventitemcont2_trans button{
+  padding: 10px 15px;
+  font-size: 10px;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont3 .eventitemcont3_trans{
+  width: 90%;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont3 .eventitemcont3_trans h3{
+  font-size: 10px;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont3 .eventitemcont3_trans p{
+  font-size: 8px;
+  }
+
+  .main_container .eventscontainer .eventsbodycontainer .eventitemcont#eventitemcont3 .eventitemcont3_trans button{
+    padding: 10px 15px;
+    font-size: 10px;
+  }
+}

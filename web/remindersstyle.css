@@ -1,0 +1,57 @@
+section{
+  margin-top: 50px;
+}
+
+.remindercontainer{
+background: white;
+padding: 20px;
+display:block;
+}
+
+
+.remindercontainer h1{
+  font-size: 40px;
+  color: #2e4ead;
+
+}
+
+.remindercontainer .remindercontainertable_row{
+margin-top: 25px;
+}
+
+.remindercontainer .remindercontainertable_row .remindercontainertable_col{
+  width: 80%;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #DCDCDC;
+  box-shadow: 2px 5px 5px #DCDCDC;
+  margin: 20px;
+}
+
+.remindercontainer .remindercontainertable_row .remindercontainertable_col .reminder_container_p{
+  margin-bottom: 15px;
+}
+
+.remindercontainer .reminder_container_date {
+  font-size: 25px;
+  color: #2e4ead;
+  margin: 20px 0px;
+}
+
+
+@media (max-width: 858px) {
+	
+.remindercontainer h1{
+  font-size: 30px;
+}
+
+
+.remindercontainer .remindercontainertable_row .remindercontainertable_col{
+  width: 90%;
+}
+
+.remindercontainer .reminder_container_date {
+  font-size: 20px;
+}
+	
+}

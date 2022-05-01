@@ -1,0 +1,46 @@
+.admineventscontainer{
+	width:100%
+	
+}
+
+.admineventscontainer h2{
+	color:navy;
+	
+}
+
+.admineventscontainer .admineventscontainer_table{
+	
+	width:100%;
+padding:10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top:30px;
+	
+}
+
+.admineventscontainer .admineventscontainer_table thead tr{
+background:#2e4ead;
+color: white;
+}
+
+.admineventscontainer .admineventscontainer_table tbody tr{
+background:white;
+color: navy;
+}
+
+.warningClass{
+	display:none;
+}
+
+@media (max-width: 700px){
+.warningClass{
+	display:block;
+	color:red;
+}
+
+.admineventscontainer{
+	display:none;
+	
+}
+}

@@ -1,0 +1,281 @@
+
+.main_container{
+  display: flex;
+}
+
+.main_container .informationcontainer {
+margin-top: 30px;
+  background: white;
+  padding: 20px;
+  width:100%;
+}
+
+.main_container .informationcontainer h1{
+  font-size: 40px;
+  color: navy;
+}
+
+.main_container .informationcontainer .employeeinfocont1{
+  width: 100%;
+  padding: 20px;
+  display: flex;
+}
+
+.main_container .informationcontainer .employeeinfocont1 .employeeidcont{
+width: 65%;
+padding: 20px;
+margin-right: 10px;
+border-radius: 10px;
+border: 1px solid #DCDCDC;
+box-shadow: 2px 5px 5px #DCDCDC;
+}
+
+.main_container .informationcontainer .employeeinfocont1 .employeeidcont p{
+  font-size: 30px;
+  color: #2e4ead;
+  text-align: center;
+  margin: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.main_container .informationcontainer .employeeinfocont1 .employeebutcont{
+width: 20%;
+padding: 20px;
+}
+
+.main_container .informationcontainer .employeeinfocont1 .employeebutcont button{
+  color: white;
+  background: navy;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.main_container .informationcontainer .employeeinfocont1 .employeebutcont button:hover{
+opacity: .7;
+}
+
+.main_container .informationcontainer .employeeinfocont2{
+  width: 60%;
+  padding: 20px;
+  display: block;
+  margin: auto;
+}
+
+.main_container .informationcontainer .employeeinfocont2 .employeeinfoitem{
+  margin: 20px;
+  border-radius: 5px;
+  border: 1px solid #DCDCDC;
+  box-shadow: 2px 5px 5px #DCDCDC;
+  padding: 20px;
+}
+
+.main_container .informationcontainer .employeeinfocont2 .employeeinfoitem h3{
+  font-size: 18px;
+}
+
+.main_container .informationcontainer .employeeinfocont2 .employeeinfoitem p{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 20px;
+  color: #2e4ead
+}
+
+.main_container .informationcontainer.collapseinformationcontainer {
+width:60%;
+}
+
+.main_container .informationcontainer.collapseinformationcontainer .employeeinfocont1 .employeeidcont{
+width:80%;
+margin: auto;
+}
+
+.main_container .informationcontainer.collapseinformationcontainer .employeeinfocont1 .employeebutcont{
+display: none;
+}
+
+.main_container .editcontainer{
+  display: none;
+}
+
+
+.main_container .editcontainer.expandeditcontainer{
+  width:35%;
+  background: white;
+  margin: auto;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid white;
+  display: block;
+}
+
+
+.editcontainer.expandeditcontainer .closeeditcontainer{
+  margin: 20px;
+  width: 100%;
+  padding: 20px;
+}
+
+.editcontainer.expandeditcontainer .closeeditcontainer ul li a{
+float: right;
+}
+
+.editcontainer.expandeditcontainer .editformcontainer h1{
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: navy;
+}
+
+
+.editcontainer.expandeditcontainer .editformcontainer h3{
+  font-size: 10px;
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.editcontainer.expandeditcontainer .editformcontainer button{
+  background: navy;
+  color: white;
+  border-radius: 10px 10px 10px 0px;
+  border: 1px solid navy;
+  font-size: 15px;
+  padding: 20px 15px;
+  margin: 25px;
+  width: 80%;
+  opacity: .8;
+}
+
+.editcontainer.expandeditcontainer .editformcontainer button:hover{
+  border-radius: 10px 10px 10px 0px;
+  border: 1px solid navy;
+  opacity: 1;
+}
+
+
+.editcontainer.expandeditcontainer .editformcontainer .formgroup label{
+ font-size: 10px;   
+}
+
+input[type=text], input[type=email], input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+
+input[type=date]::-webkit-datetime-edit {
+  padding: 1em 4em;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+}
+
+input[type=date]::-webkit-datetime-edit-text { color: red; padding: 0 0.3em; }
+input[type=date]::-webkit-datetime-edit-month-field { color: #2e4ead; }
+input[type=date]::-webkit-datetime-edit-day-field { color: #2e4ead; }
+input[type=date]::-webkit-datetime-edit-year-field { color: #2e4ead; }
+
+@media (max-width: 1000px) {
+  .main_container .informationcontainer .employeeinfocont2{
+    width: 70%;
+    padding: 10px;
+  }
+
+
+  .main_container .informationcontainer .employeeinfocont2 .employeeinfoitem{
+    margin: 20px 15px;
+    padding: 15px;
+  }
+
+  .main_container .informationcontainer .employeeinfocont2 .employeeinfoitem p{
+    font-size: 15px;
+}
+
+.main_container .informationcontainer .employeeinfocont2{
+  width: 80%;
+  padding: 10px;
+}
+
+
+.main_container .informationcontainer.collapseinformationcontainer {
+display: none;
+}
+
+.main_container .editcontainer.expandeditcontainer{
+  width:80%;
+}
+
+input[type=date]::-webkit-datetime-edit {
+  padding: 1em 2em;
+}
+}
+  @media (max-width: 700px) {
+    .main_container .informationcontainer.collapseinformationcontainer {
+    display: none;
+    }
+
+    .main_container .informationcontainer h1{
+      font-size: 30px;
+    }
+
+    .main_container .informationcontainer .employeeinfocont1{
+      display: block;
+    }
+
+    .main_container .informationcontainer .employeeinfocont1 .employeeidcont{
+    width:90%;
+    padding: 20px;
+    }
+
+    .main_container .informationcontainer .employeeinfocont1 .employeeidcont p{
+      font-size: 15px;
+    }
+
+    .main_container .informationcontainer .employeeinfocont1 .employeebutcont{
+    width: 80%;
+  }
+
+  .main_container .informationcontainer .employeeinfocont2{
+    width: 100%;
+  }
+
+  .main_container .informationcontainer .employeeinfocont2 .employeeinfoitem{
+    margin: 20px 5px;
+  }
+
+    .main_container .informationcontainer .employeeinfocont2 .employeeinfoitem p{
+      font-size: 10px;
+    }
+
+    .main_container .editcontainer.expandeditcontainer{
+      width:90%;
+    }
+
+    .editcontainer.expandeditcontainer .editformcontainer h1{
+      font-size: 20px;
+    }
+
+    .editcontainer.expandeditcontainer .editformcontainer button{
+      background: navy;
+      color: white;
+      border-radius: 10px 10px 10px 0px;
+      border: 1px solid navy;
+      font-size: 12px;
+      padding: 20px 10px;
+      margin: 20px 25px;
+      width: 80%;
+      opacity: .8;
+    }
+
+    input[type=date]::-webkit-datetime-edit {
+      padding: 1em;
+    }
+}
